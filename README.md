@@ -1,1 +1,3 @@
 # Lettu3
+The Javascript file begins by selecting the generate ID and adding a click event to it.
+This began a function that broke the assignment essentially into two steps: creating the password, and then pushing it onto the page. The first function - the generation - began by asking the user the series of questions to set the parameters as per the instructions. For this, I tried using if statements but the while loop ensured that someone wouldnt be able to put input outside the parameters after executing the part of the code a second time. I then concatenated the character arrays that were selected and ran a for loop to generate the elements into a password. The second function used the returned password to place upon the password ID in the html.
